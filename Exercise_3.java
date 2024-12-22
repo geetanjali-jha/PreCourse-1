@@ -1,5 +1,28 @@
-import java.io.*; 
-  
+// Time Complexity :
+// insert(): O(n)
+// printList() O(n)
+
+// Space Complexity :
+// insert(): O(1)
+// printList() O(1)
+
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+// Your code here along with comments explaining your approach
+// This code is implements a singly linked list with following operations
+// insert(): Add a new node at the end of the linked list
+// print(): Prints all the elements of the linked list
+//Apporach:
+//Define a node class with data and next pointer
+//The Linked list class provide a insert method to add a new node at the end of the list
+// The print method to triverse the head to end of the list and print the each node data
+//The main method tests the linked list by inserting value and printing the list
+
+
+
+import java.io.*;
+
 // Java program to implement 
 // a Singly Linked List 
 class LinkedList {
@@ -23,7 +46,7 @@ class LinkedList {
         }
     }
 
-    // Method to insert a new node
+    // Method to insert a new node at the end of the linked list
     public static LinkedList insert(LinkedList list, int data)
     {
         // Create a new node with given data
